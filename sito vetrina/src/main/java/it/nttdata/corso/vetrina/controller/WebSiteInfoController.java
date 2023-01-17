@@ -48,7 +48,7 @@ public class WebSiteInfoController {
         List<Skill> skills; skills = skillBO.getAllSkillList();
         return new ModelAndView("/jsp/listaSkills.jsp", "list2", skills);
     }
-    @GetMapping("/createViewSkill")
+    @GetMapping("/createSkill")
     public ModelAndView getFormSkill() {
         return new ModelAndView("/jsp/createSkill.jsp");
     }

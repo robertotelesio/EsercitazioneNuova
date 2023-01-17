@@ -13,7 +13,7 @@
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/listaSkills">Lista Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/listaProgetti">Lista Progetti</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://github.com/robertotelesio">link Github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/createViewSkill">Aggiungi skill</a></li>
+                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/createSkill">Aggiungi skill</a></li>
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/deleteViewSkill">elimina skill</a></li>
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/updateSkill">aggiorna skill</a></li>
 
