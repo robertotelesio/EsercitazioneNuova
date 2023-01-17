@@ -22,10 +22,10 @@
         <c:forEach items="${list}" var="progetto">
             <tr>
                 <td>
-                    <c:out value="${progetto.getName()}"/>
+                    <c:out value="${progetto.getName()}"></c:out>
                 </td>
                 <td>
-                    <c:out value="${progetto.getDescription()}"/>
+                    <c:out value="${progetto.getDescription()}"></c:out>
                 </td>
             </tr>
 

@@ -15,7 +15,7 @@ public interface ProgettoBO {
 
         void insertProgettoInfo(Progetto progetto) throws DataAccessException;
 
-        void deleteWebSiteInfo(long id) throws DataAccessException;
+        void deleteSkill(long id) throws DataAccessException;
 
 
 

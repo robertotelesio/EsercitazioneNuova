@@ -1,6 +1,5 @@
 package it.nttdata.corso.vetrina.business.interfaces;
 
-import it.nttdata.corso.vetrina.model.Progetto;
 import it.nttdata.corso.vetrina.model.Skill;
 import org.springframework.dao.DataAccessException;
 
@@ -13,7 +12,8 @@ public interface SkillBO {
 
     Skill getSkills() throws DataAccessException;
 
-    void insertSkillInfo(Skill skill) throws DataAccessException;
 
-    void deleteSkillInfo(long id) throws DataAccessException;
+    void insertSkill(Skill skill) throws DataAccessException;
+
+    void deleteSkill(long id) throws DataAccessException;
 }

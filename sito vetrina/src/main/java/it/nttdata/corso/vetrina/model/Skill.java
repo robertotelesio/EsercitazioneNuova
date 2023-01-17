@@ -6,6 +6,7 @@ import lombok.Setter;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.function.LongFunction;
 
 @Entity
 @Getter
@@ -15,7 +16,7 @@ public class Skill extends BaseEntity {
 
     private String name;
     private String description;
-    private CategoriaType categoria;
+    //private CategoriaType categoria;
 
 
 //    @OneToMany

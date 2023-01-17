@@ -29,7 +29,7 @@ public class ProgettoBOImpl implements ProgettoBO {
     }
 
 
-    public void deleteWebSiteInfo(long id) throws DataAccessException{
+    public void deleteSkill(long id) throws DataAccessException{
         progettoRepository.deleteById(id);
     }
 

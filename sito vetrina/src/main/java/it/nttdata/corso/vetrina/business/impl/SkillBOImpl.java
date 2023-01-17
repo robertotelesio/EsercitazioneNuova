@@ -22,22 +22,25 @@ public class SkillBOImpl implements SkillBO {
     public List<Skill> getSkillInfo() throws DataAccessException {
         return SkillRepository.findAll();
     }
+
     public Skill getSkills() throws DataAccessException {
         return SkillRepository.findFirstByOrderByIdDesc();
     }
+
+
     @Override
     public List<Skill> getAllSkillList() {
         return SkillRepository.findAll();
     }
 
-    @Override
-    public void insertSkillInfo(Skill skill) throws DataAccessException{
-        SkillRepository.save(skill);
-    }
 
-    public void deleteSkillInfo(long id) throws DataAccessException{
+
+    public void deleteSkill(long id) throws DataAccessException{
         SkillRepository.deleteById(id);
     }
 
+    public void insertSkill(Skill Skill) throws DataAccessException {
+        SkillRepository.save(Skill);
+    }
 }
 
