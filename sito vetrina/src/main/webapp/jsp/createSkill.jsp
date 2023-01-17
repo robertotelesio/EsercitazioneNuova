@@ -19,7 +19,7 @@
 </c:if>
 
 <div class="container">
-    <form action="${pageContext.request.contextPath}/createSkill" method="post">
+    <form action="${pageContext.request.contextPath}/admin/createSkill" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Name</label>
             <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">

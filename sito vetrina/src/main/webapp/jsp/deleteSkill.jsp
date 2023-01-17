@@ -19,7 +19,7 @@
 </c:if>
 
 <div class="container">
-    <form action="${pageContext.request.contextPath}/deleteSkill" method="get">
+    <form action="${pageContext.request.contextPath}/admin/deleteSkill" method="get">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">id</label>
             <input  type="number" name="id" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
