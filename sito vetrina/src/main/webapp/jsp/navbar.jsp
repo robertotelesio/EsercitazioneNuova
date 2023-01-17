@@ -10,12 +10,21 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/index">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/roberto-t-85196422a/">My LinkedIn </a></li>
+                    <sec:authorize access="isAuthenticated()">
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/listaSkills">Lista Skills</a></li>
+                    </sec:authorize>
+                        <sec:authorize access="isAuthenticated()">
                         <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/listaProgetti">Lista Progetti</a></li>
+                        </sec:authorize>
                         <li class="nav-item"><a class="nav-link" href="https://github.com/robertotelesio">link Github</a></li>
-                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/createSkill">Aggiungi skill</a></li>
-                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/deleteViewSkill">elimina skill</a></li>
-                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/updateSkill">aggiorna skill</a></li>
+
+                <sec:authorize access="hasRole('ADMIN')">
+                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/admin/createSkill">Aggiungi skill</a></li>
+                </sec:authorize>
+                    <sec:authorize access="hasRole('ADMIN')">
+                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/admin/deleteViewSkill">elimina skill</a></li>
+                        </sec:authorize>
+                        <%--                        <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/admin/updateSkill">aggiorna skill</a></li>--%>
 
 
                     </ul>

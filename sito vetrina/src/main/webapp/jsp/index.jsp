@@ -23,7 +23,7 @@
     <div class="container">
         <div class="text-center my-5">
             <h1 class="fw-bolder">Welcome to My Portfolio!</h1>
-            <p class="lead mb-0">Lorem ipsum</p>
+            <p class="lead mb-0">Roberto Telesio</p>
         </div>
     </div>
 </header>
@@ -34,7 +34,7 @@
         <div class="col-lg-8">
             <!-- Featured blog post-->
             <div class="card mb-4">
-                <a href="#!"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
+                <a href="#!"><img class="card-img-top" src="https://media.istockphoto.com/id/1310384629/photo/solar-panel-cell-on-dramatic-sunset-sky-background-clean-alternative-power-energy-concept.jpg?b=1&s=170667a&w=0&k=20&c=6PFVI-Ek0jrcEYkiAXyuD-RUTvGnadNgLny8ChXAve4=" alt="..." /></a>
                 <div class="card-body">
                     <div class="small text-muted">January 1, 2022</div>
                     <h2 class="card-title">Progetto Epic Energy service</h2>
@@ -47,61 +47,62 @@
                 <div class="col-lg-6">
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
+                        <a href="https://github.com/robertotelesio/CourseSpring"><img class="card-img-top" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dW5pdmVyc2l0eXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60" alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2022</div>
-                            <h2 class="card-title h4">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
+                            <h2 class="card-title h4">Progetto Course Spring</h2>
+                            <p class="card-text">Gestionale di un Db che utilizza operazioni di CRUD per modificare il db "corsi" collegato. Chiamate rest effettuate in locale con PostMan;
+                                5/01/2023: aggiunta la possibilità di creare Utenti con ruoli assegnati; aggiunta autenticazione per utenti tramite JWT.</p>
+                            <a class="btn btn-primary" href="https://github.com/robertotelesio/CourseSpring">Read more →</a>
                         </div>
                     </div>
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
+                        <a href="https://github.com/robertotelesio/22DIC"><img class="card-img-top" src=https://images.unsplash.com/photo-1544383835-bda2bc66a55d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGF0YWJhc2V8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60 alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2022</div>
-                            <h2 class="card-title h4">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
+                            <h2 class="card-title h4">Progetto SerlvetDB</h2>
+                            <p class="card-text"> Web app che sfrutta le servlet per gestire un database di utenti.</p>
+                            <a class="btn btn-primary" href="https://github.com/robertotelesio/22DIC">Read more →</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
+                        <a href="https://github.com/robertotelesio/WebSiteSpringJsp"><img class="card-img-top" src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2022</div>
-                            <h2 class="card-title h4">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla.</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
+                            <h2 class="card-title h4">WebSite SpringJsp</h2>
+                            <p class="card-text">Progetto Spring che sfrutta le Jsp, operazioni Crud.</p>
+                            <a class="btn btn-primary" href="https://github.com/robertotelesio/WebSiteSpringJsp">Read more →</a>
                         </div>
                     </div>
                     <!-- Blog post-->
                     <div class="card mb-4">
-                        <a href="#!"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
+                        <a href="https://github.com/robertotelesio/springDataRest"><img class="card-img-top" src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg" alt="..." /></a>
                         <div class="card-body">
                             <div class="small text-muted">January 1, 2022</div>
-                            <h2 class="card-title h4">Post Title</h2>
-                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam.</p>
-                            <a class="btn btn-primary" href="#!">Read more →</a>
+                            <h2 class="card-title h4">Spring Data Rest</h2>
+                            <p class="card-text"></p>
+                            <a class="btn btn-primary" href="https://github.com/robertotelesio/springDataRest">Read more →</a>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Pagination-->
-            <nav aria-label="Pagination">
-                <hr class="my-0" />
-                <ul class="pagination justify-content-center my-4">
-                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>
-                    <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">3</a></li>
-                    <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">15</a></li>
-                    <li class="page-item"><a class="page-link" href="#!">Older</a></li>
-                </ul>
-            </nav>
+<%--            <nav aria-label="Pagination">--%>
+<%--                <hr class="my-0" />--%>
+<%--                <ul class="pagination justify-content-center my-4">--%>
+<%--                    <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1" aria-disabled="true">Newer</a></li>--%>
+<%--                    <li class="page-item active" aria-current="page"><a class="page-link" href="#!">1</a></li>--%>
+<%--                    <li class="page-item"><a class="page-link" href="#!">2</a></li>--%>
+<%--                    <li class="page-item"><a class="page-link" href="#!">3</a></li>--%>
+<%--                    <li class="page-item disabled"><a class="page-link" href="#!">...</a></li>--%>
+<%--                    <li class="page-item"><a class="page-link" href="#!">15</a></li>--%>
+<%--                    <li class="page-item"><a class="page-link" href="#!">Older</a></li>--%>
+<%--                </ul>--%>
+<%--            </nav>--%>
         </div>
         <!-- Side widgets-->
         <div class="col-lg-4">

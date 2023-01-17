@@ -48,12 +48,12 @@ public class WebSiteInfoController {
         List<Skill> skills; skills = skillBO.getAllSkillList();
         return new ModelAndView("/jsp/listaSkills.jsp", "list2", skills);
     }
-    @GetMapping("/admin/createSkill")
+    @GetMapping("/createSkill")
     public ModelAndView getFormSkill() {
         return new ModelAndView("/jsp/createSkill.jsp");
     }
 
-    @PostMapping("/admin/createSkill")
+    @PostMapping("/createSkill")
     public ModelAndView insertSkill(@RequestParam String name, @RequestParam String description) {
         Skill skill = new Skill();
         skill.setName(name);
@@ -62,13 +62,13 @@ public class WebSiteInfoController {
         return new ModelAndView("/jsp/createSkill.jsp", "operation", true);
     }
 
-    @GetMapping("/admin/deleteViewSkill")
+    @GetMapping("/deleteViewSkill")
     public ModelAndView getDeleteForm() {
         return new ModelAndView("/jsp/deleteSkill.jsp");
     }
 
 
-    @GetMapping("/admin/deleteSkill")
+    @GetMapping("/deleteSkill")
     public ModelAndView deleteSkill(@RequestParam (name = "id") Long id) {
         if (!id.equals(null)) {
             skillBO.deleteSkill((id));
